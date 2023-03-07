@@ -26,7 +26,7 @@ public class ThreadVetor extends Thread
 		{
 			for(int i = 0; i < this.vet.length ; i++)
 			{
-				this.vet[i] = r.nextInt(99) + 1;
+				this.vet[i] = r.nextInt(100) + 1;
 			}
 			double tempoFim = (System.nanoTime() - tempoIni) / Math.pow(10, 9);
 			System.out.println("Segundos percorrido para o num 1 = " + tempoFim);
